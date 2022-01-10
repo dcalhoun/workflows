@@ -1,8 +1,8 @@
 {
   "private": true,
-  "name": "remix-app-template",
-  "description": "",
-  "license": "",
+  "name": "workflows",
+  "description": "Various automation workflows.",
+  "license": "MIT",
   "scripts": {
     "build": "remix build",
     "dev": "remix dev",

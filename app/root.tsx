@@ -4,12 +4,12 @@ import {
   Meta,
   Outlet,
   Scripts,
-  ScrollRestoration
+  ScrollRestoration,
 } from "remix";
 import type { MetaFunction } from "remix";
 
 export const meta: MetaFunction = () => {
-  return { title: "New Remix App" };
+  return { title: "Workflows" };
 };
 
 export default function App() {
@@ -21,7 +21,14 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body>
+      <body
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          margin: 0,
+          minHeight: "100vh",
+        }}
+      >
         <Outlet />
         <ScrollRestoration />
         <Scripts />
